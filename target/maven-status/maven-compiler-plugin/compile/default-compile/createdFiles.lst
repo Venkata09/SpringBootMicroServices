@@ -3,10 +3,12 @@ com\learn\ExceptionErrorHandlingCoverage\Controller\EmpController.class
 com\learn\OneMoreExample\firstfewlines\SpringBootPostgresExample.class
 com\learn\ExceptionErrorHandlingCoverage\Controller\ExceptionControllerAdiceClass.class
 com\learn\OneMoreExample\firstfewlines\repository\StudentRepository.class
+com\learn\Concepts\AUTOWIRING\Autowiring.class
 com\learn\ExceptionErrorHandlingCoverage\Services\EmployeeService.class
 com\learn\ExceptionErrorHandlingCoverage\model\CustomException.class
 com\learn\OneMoreExample\firstfewlines\service\StudentService.class
 com\learn\ExceptionErrorHandlingCoverage\model\Employee.class
+com\learn\Concepts\DI\Employee.class
 com\learn\OneMoreExample\firstfewlines\domain\Student.class
 com\learn\ExceptionErrorHandlingCoverage\Services\EmployeeServiceException.class
 com\learn\ExceptionErrorHandlingCoverage\ThrowExceptions\ExceptionThrow.class

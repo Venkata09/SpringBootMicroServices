@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+    <!-- Definition for textEditor bean -->
+    <bean id="textEditor" class="com.learn.Concepts.AUTOWIRING_BY_CONSTRUCTOR.TextEditor"
+          autowire="constructor">
+        <constructor-arg value="Generic Text Editor"/>
+    </bean>
+
+    <!-- Below bean tag makes call to default constructor
+    which makes constructor overloading of class TextEditor
+    successful -->
+    <bean id="testdefault"  class="com.learn.Concepts.AUTOWIRING_BY_CONSTRUCTOR.TextEditor"
+          autowire="default">
+    </bean>
+
+    <!-- Definition for spellChecker bean -->
+    <bean id="SpellCheckerasas" class="com.learn.Concepts.AUTOWIRING_BY_CONSTRUCTOR.SpellChecker">
+    </bean>
+
+    <bean id="myAddress" class="com.learn.Concepts.AUTOWIRING_BY_CONSTRUCTOR.MyTest"
+          autowire="constructor">
+        <constructor-arg value="Italy"/>
+    </bean>
+
+</beans>
