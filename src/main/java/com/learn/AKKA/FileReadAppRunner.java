@@ -43,7 +43,8 @@ public class FileReadAppRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         // Create first actor based on the specified class using spring
-        ActorRef coordinator = actorSystem.actorOf(springExtension.props("fileAnalysisActor"), "fileAnalysisActor");
+        ActorRef coordinator = actorSystem.actorOf
+                (springExtension.props("fileAnalysisActor"), "fileAnalysisActor");
 
         // Create a message including the file path
         FileAnalysisMessage msg = new FileAnalysisMessage("src/main/resources/Input_data/log.txt");
