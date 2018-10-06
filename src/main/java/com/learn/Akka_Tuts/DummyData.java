@@ -10,8 +10,8 @@ import java.util.List;
  */
 public class DummyData {
 
-    public static List<Employee> getEmployeeDetails(){
-        List<Employee> empList = new ArrayList<Employee>();
+    public static List<Employee> getEmployeeDetails() {
+        List<Employee> empList = new ArrayList<>();
         empList.add(new Employee(1, "Suresh Kumar Devaraj", "suresh@gmail.com", 32));
         empList.add(new Employee(2, "Lokesh", "lokesh@gmail.com", 25));
         empList.add(new Employee(3, "Kamal", "kamal@gmail.com", 24));
